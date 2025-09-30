@@ -3,53 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tashan Accurate Signals</title>
+  <title>Landing Page</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1440179163727149');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1440179163727149&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </head>
 <body>
-  <div class="card">
-    <!-- Logo image replaces dart emoji -->
-    <div class="logo-block">
-  <img src="logo.png" alt="Tashan Logo" class="logo-img" />
-  <div class="logo-text">Tashan Sureshot</div>
-</div>
-
-<img src="logo.png.io" alt="My PNG" style="width:200px; height:auto;">
-
-    <h1>Lets Grow Together.</h1>
-    <p class="description">
-     Join For Number Sureshot.
-      <br />No Gain? Return Policy
-    </p>
-    <button class="cta-button" onclick="window.location.href='https://t.me/+FrK-4uCRjcAwZGZl'">Join Now</button>
-       <div class="timer" id="countdown">Next Signal drops in: 00:00</div>
-
-    <div class="testimonials">
-      <p>“Fastest Withdrawal!” – Rahul</p>
-      <p>“Free Number Shot!” – Tushar</p>
-      <p>“Free Gift Codes.” – Mohit</p>
+  <header class="hero-section">
+    <nav class="navbar">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Some subtitle or tagline that explains your offer</p>
+      <button id="cta-button">Get Started</button>
     </div>
-  </div>
+  </header>
+
+  <section id="features" class="features-section">
+    <div class="feature">
+      <h2>Feature One</h2>
+      <p>Description of feature one.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature Two</h2>
+      <p>Description of feature two.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature Three</h2>
+      <p>Description of feature three.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Some information about your company or product.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 MyBrand. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
